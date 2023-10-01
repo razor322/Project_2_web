@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <link href="style.css" rel="stylesheet" >
+</head>
+<body class="">
+  <div class="container bg-light-subtle shadow">
+
+    <header class="d-flex  flex-wrap justify-content-center py-3 mb-4 border-bottom px-4 shadow rounded" >
+      <a href="/" class="d-flex align-items-center ms-4 mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <span class="fs-3 ">KELOMPOK 2</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a  class="nav-link text-success" href="#gybran">Gybran</a></li>
+        <li class="nav-item"><a class="nav-link text-warning" href="#rahmi">Rahmi</a></li>
+        <li class="nav-item"><a  class="nav-link text-danger" href="#fauzi">Fauzi</a></li>
+        <li class="nav-item"><a  class="nav-link text-light bg-primary" href="#kontak">Kontak</a></li>
+      </ul>
+    </header>
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-2">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./img/prog.jpeg" height="350rem" width="350rem" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Kelompok 2</h1>
+          <p class="lead">Kelompok 2 adalah tim yang bekerja bersama untuk mengembangkan perangkat lunak. Mereka merencanakan, membagi tugas, dan bekerja secara kolaboratif untuk mencapai tujuan bersama. Prosesnya melibatkan perencanaan, pengujian, dokumentasi, dan komunikasi yang efektif. Tujuannya adalah menghasilkan perangkat lunak berkualitas tinggi yang memenuhi kebutuhan pengguna. </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" href="#kontak" class="btn btn-primary btn-lg px-4 me-md-2">Kontak</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="conatiner mx-4">
+        <div id="gybran" class="bg-success rounded my-3 d-flex shadow" style="--bs-bg-opacity: .80;">
+          <img src="./img/gybran.png" class="rounded m-3 shadow" height="100%" width="200rem" alt="foto gybran" >
+          <div class="container text-light shadow">
+            <h3 class="m-3">Gybran Nauval Yuhandika</h3>
+            <h5 class="m-3">2111081006</h5>
+            <h6 class="m-3">Front-End Developer, Mobile Developer, ML</h6>
+            <p class="m-3 py-4 fw-bold fst-italic">"Dont't worry if it doesn't work right. If everything did, you'd be out of a job."</p>
+          </div>
+        </div>
+        <div id="rahmi" class="bg-warning rounded my-3 d-flex shadow" style="--bs-bg-opacity: .81;">
+          <img src="./img/rahmi.png" class="rounded m-3 shadow" height="100%" width="200rem" alt="foto rahmi" >
+          <div class="container shadow">
+
+            <h3 class="m-3">Rahmi Aulia</h3>
+            <h5 class="m-3">2111083019</h5>
+            <h6 class="m-3">UI/UX, Graphic Design, Product Analyst</h6>
+            <p class="m-3 py-4 fw-bold fst-italic">"Without requirements or design, programming is the art of adding bugs to an empty text file."</p>
+
+          </div>
+        </div>
+        <div id="fauzi" class="bg-danger rounded my-3  d-flex shadow" style="--bs-bg-opacity: .81;">
+          <img src="./img/fauzi.png" class="rounded m-3 shadow" height="100%" width="255rem" alt="foto fauzi" >
+          <div class="container text-light shadow">
+            <h3 class="m-3">Fauzi Isyrin Apridal</h3>
+            <h5 class="m-3">2111083007</h5>
+            <h6 class="m-3">Back-End Developer, Web Developer, Cyber Security</h6>
+            <p class="m-3 py-4 fw-bold fst-italic">"Before software can be reusable it first has to be usable. "</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 my-2 rounded px-3">
+      
+      <div class="col">
+        <div class="card shadow-sm">
+            <img src="./img/mob1.jpeg" width="100%" height="225" alt="">          
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="./img/mob2.jpeg" width="100%" height="225" alt="">           
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="./img/mob3.jpeg" width="100%" height="225" alt="">          
+        </div>
+      </div>
+      </div>
+
+
+    <div class="container contact-form" id="kontak">
+     
+      <form method="post">
+          <h3>Kontak</h3>
+         <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <input type="text" name="txtName" class="form-control mb-3 mt-1" placeholder="Nama *" value="" />
+                  </div>
+                  <div class="form-group">
+                      <input type="text" name="txtEmail" class="form-control mb-3" placeholder="Email *" value="" />
+                  </div>
+                  <div class="form-group">
+                      <input type="text" name="txtPhone" class="form-control mb-3" placeholder="No. Telepon *" value="" />
+                  </div>
+                  <div class="form-group">
+                      <input type="submit" name="btnSubmit" class="btnContact mb-3" value="Kirim" />
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <textarea name="txtMsg" class="form-control" placeholder="Pesanmu disini *" style="width: 100%; height: 150px;"></textarea>
+                  </div>
+              </div>
+          </div>
+      </form>
+</div>
+    <footer class="py-3 mt-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Top</a></li>
+        <li class="nav-item"><a href="#gybran" class="nav-link px-2 text-body-secondary">Gybran</a></li>
+        <li class="nav-item"><a href="#rahmi" class="nav-link px-2 text-body-secondary">Rahmi</a></li>
+        <li class="nav-item"><a href="#fauzi" class="nav-link px-2 text-body-secondary">Fauzi</a></li>
+        <li class="nav-item"><a href="#kontak" class="nav-link px-2 text-body-secondary">Kontak</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">&copy; 2023 Kelompok 2, Inc</p>
+    </footer>
+  </div>
+  
+
+
+  
+
+    <script src="bootstrap.bundle.min.js" ></script>
+
+</body>
+</html>
